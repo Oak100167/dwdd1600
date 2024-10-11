@@ -1,0 +1,80 @@
+body  {
+      font-family: "Oxygen", sans-serif;
+  font-weight: 300;
+    font-size:16px;
+    margin: 0;   
+}
+
+
+header {
+    background-color: #343E69;                                      
+    padding: 4% 2vw;
+} 
+header h1 {
+    margin:0;
+    color: #ffffff;
+}
+
+header p {
+    margin: 0;
+    color: #ffffff;
+    letter-spacing: .5px; 
+    
+}
+/* nav bar*/
+nav{
+    background-color:#629AFA;
+}
+nav ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+    
+}
+
+nav a {
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: #000429;
+    font-weight: 700;
+    display: block;
+    padding: .83rem 2rem;
+}
+
+nav li.active a
+{
+    background-color: #000429;  
+    color: aliceblue;
+}
+ 
+nav a:hover {
+    background-color: #000429;  
+    color: aliceblue;
+}
+
+/*main*/
+
+main h1{
+    color: navy;
+}
+
+main h2 {
+    color: navy;
+    margin: 0 0 .3rem 
+}
+
+main ol{
+    padding: .5rem 3vw;
+    background-color: white;
+}
+
+main dl dt {
+    color: navy;    
+    font-size: 700;
+}
+
+main dl dd{
+    color: navy;
+    font-size: .9rem;
+}
